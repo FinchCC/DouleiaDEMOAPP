@@ -143,4 +143,7 @@
       <Name>douleiaDEMO</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon_profile.png" />
+  </ItemGroup>
 </Project>
