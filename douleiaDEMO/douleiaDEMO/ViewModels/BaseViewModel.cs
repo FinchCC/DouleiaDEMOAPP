@@ -20,6 +20,13 @@ namespace douleiaDEMO.ViewModels
         }
 
         string title = string.Empty;
+        string buttonName = string.Empty;
+
+        public string ButtonName
+        {
+            get { return buttonName; }
+            set { SetProperty(ref buttonName, value); }
+        }
         public string Title
         {
             get { return title; }
